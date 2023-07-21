@@ -5,11 +5,4 @@ import react from "@vitejs/plugin-react"
 export default defineConfig({
   base: "/deploy-vite/",
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: "./src/main.jsx",
-      },
-    },
-  },
 })
